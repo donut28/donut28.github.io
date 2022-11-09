@@ -1,0 +1,25 @@
+html {
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Nunito;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url("background.png");
+}
+
+body {
+    color: white;
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.python {
+    text-shadow: linear-gradient(90deg, rgba(48,105,152,1) 40%, rgba(255,212,59,1) 60%);
+}
