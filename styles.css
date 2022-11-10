@@ -9,14 +9,8 @@ html {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-image: url("background.png");
-    max-width: 1500px;
 }
 
-@media screen and (max-device-width: 1024px) {
-    html {
-      background-image: url('mobile.png')
-    }
-  }
 
 
 
