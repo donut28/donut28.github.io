@@ -8,7 +8,7 @@ html {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-image: url("background.png");
+    background-color: rgb(17, 22, 66);
     font-size: 100%;
 }
 
@@ -24,6 +24,50 @@ h1 {
 .python {
     text-shadow: linear-gradient(90deg, rgba(48,105,152,1) 40%, rgba(255,212,59,1) 60%);
 }
+
+.text-glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+    color: white; 	
+    }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(10, 13, 37);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav b {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
 
 /* header {
     
